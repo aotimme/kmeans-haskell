@@ -95,7 +95,7 @@ main = do
       maxIters  = read (args !! 2) :: Int
   putStrLn ("K          = " ++ (show k))
   putStrLn ("Iterations = " ++ (show maxIters))
-  putStrLn ("# Points   = " ++ (show $ length points))
+  putStrLn ("Num Points = " ++ (show $ length points))
   --putStrLn "Centroids:"
   --putStrLn . unlines $ map show centroids
   let klasses = doKmeans points centroids maxIters
