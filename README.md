@@ -1,4 +1,4 @@
-=== K-Means in Haskell
+=== K-Means in Haskell ===
 
 Performs K-means clustering on a list of tab-separated numeric vectors
 given a number K of clusters, a list of tab-separated numberic vectors
