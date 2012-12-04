@@ -39,3 +39,9 @@ Group 1: 67
 Group 0: 1802
 Group 1: 665
 ```
+
+TODO
+----
+
+* optionally create random centroids (either by taking K centroids at random from data points, or by generating K random centroids in some semi-smart manner)
+* write out to file the classification of each point (e.g. `%(point)\t%(class)\n` format)
